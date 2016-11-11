@@ -383,25 +383,34 @@ body {
 
 .constrained {
     width: 90%;
-    max-width: 750px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
 #number-input {
-    font-size: 60px;
-    height: 100px;
-    line-height: 70px;
-    vertical-align: middle !important;
     text-align: center;
+    font-size: 60px;
 }
 
 @media(max-width: 768px) {
     #number-input {
-        font-size: 48px;
+        font-size: auto;
     }
 }
 
 .panel-title {
     text-align: center;
     font-size: 36px !important;
+}
+::-webkit-input-placeholder {
+    font-size: 60px !important;
+}
+:-moz-placeholder {
+    font-size: 60px !important;
+}
+::-moz-placeholder {
+    font-size: 60px !important;
+}
+:-ms-input-placeholder {
+    font-size: 60px !important;
 }
