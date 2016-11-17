@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @phone_number.date %>
+</p>
+
+<p>
+  <strong>Phonenumber:</strong>
+  <%= @phone_number.phonenumber %>
+</p>
+
+<p>
+  <strong>Integer:</strong>
+  <%= @phone_number.integer %>
+</p>
+
+<p>
+  <strong>Comments:</strong>
+  <%= @phone_number.comments %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @phone_number.location %>
+</p>
+
+<p>
+  <strong>String:</strong>
+  <%= @phone_number.string %>
+</p>
+
+<%= link_to 'Edit', edit_phone_number_path(@phone_number) %> |
+<%= link_to 'Back', phone_numbers_path %>

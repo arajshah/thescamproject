@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2016-11-15 18:44:19
+  phonenumber: MyString
+  integer: MyString
+  comments: MyString
+  location: MyString
+  string: MyString
+
+two:
+  date: 2016-11-15 18:44:19
+  phonenumber: MyString
+  integer: MyString
+  comments: MyString
+  location: MyString
+  string: MyString
